@@ -1,6 +1,7 @@
 from moviepy.editor import ImageSequenceClip
 import argparse
 import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
 
 IMAGE_EXT = ['jpeg', 'gif', 'png', 'jpg']
 
